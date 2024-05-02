@@ -1,0 +1,526 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1678918711124539, "dur":956, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711125504, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1678918711125554, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1678918711125568, "dur":478, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1678918711126071, "dur":729, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711126800, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976293, "dur":311, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976604, "dur":64, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976668, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976671, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976680, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976682, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976688, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976691, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976698, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976700, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976705, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976707, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976716, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976718, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976727, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976729, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976736, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976738, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976744, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976746, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976753, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976755, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976762, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976763, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976770, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976778, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711976829, "dur":1577, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1678918711126548, "dur":263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711126811, "dur":4714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711131538, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678918711131753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711143082, "dur":73266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1678918711216404, "dur":128107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711344514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711344582, "dur":4062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711348690, "dur":33447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711382142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711382151, "dur":1063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711383259, "dur":26393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711409657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711409665, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711410754, "dur":14606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711425363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711425368, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711426504, "dur":22414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711448923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711448931, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711450161, "dur":37421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711487585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711487592, "dur":11038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711498672, "dur":33663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711532339, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711532348, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711533448, "dur":60233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711593686, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711593693, "dur":1054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711594789, "dur":4685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711599478, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711599484, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711601007, "dur":2074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711603085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711603094, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711604184, "dur":17367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711621555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711621563, "dur":1280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711622920, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711623521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711623529, "dur":1087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711624662, "dur":83307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711707973, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711707981, "dur":1066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711709088, "dur":34956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711744049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711744057, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711745137, "dur":34689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711779831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711779842, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711781083, "dur":152448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711933534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1678918711933554, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1678918711934894, "dur":41427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711126923, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711126923, "dur":4605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711131537, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1678918711131731, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711142041, "dur":180792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1678918711322883, "dur":38334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711361220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711361227, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711362236, "dur":21707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711383946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711383952, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711384952, "dur":30443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711415400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711415408, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711416527, "dur":35156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711451687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711451716, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711452819, "dur":29385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711482209, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711482217, "dur":4169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711486435, "dur":22770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711509210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711509218, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711511420, "dur":25059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711536484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711536492, "dur":1093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711537892, "dur":89957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711627865, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711632001, "dur":2421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711634467, "dur":177704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711812176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711812183, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1678918711813834, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1678918711813963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711814337, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1678918711815396, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1678918711815444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711815490, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1678918711816718, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678918711816766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711816772, "dur":1192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678918711818008, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678918711818056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711818062, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678918711819092, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678918711819139, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711819148, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678918711820653, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678918711820696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711820702, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678918711822045, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1678918711822169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711822175, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1678918711823152, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1678918711823830, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711823837, "dur":1078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1678918711824959, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678918711825002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711825008, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1678918711826480, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678918711826525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711826531, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678918711827524, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1678918711827568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711827574, "dur":1128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1678918711828749, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1678918711828792, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711828798, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1678918711829832, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678918711829878, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711829884, "dur":1096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1678918711831024, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1678918711831064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711831069, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1678918711832557, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1678918711832678, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1678918711832683, "dur":1039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1678918711833764, "dur":142528, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711126787, "dur":54, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711126841, "dur":4682, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711131538, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678918711131702, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711133532, "dur":7114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1678918711140716, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678918711140881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711140942, "dur":76026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1678918711217144, "dur":38154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool.exe" }}
+,{ "pid":12345, "tid":3, "ts":1678918711255303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711255309, "dur":31616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool.exe" }}
+,{ "pid":12345, "tid":3, "ts":1678918711286970, "dur":12464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711299438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711299445, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711300781, "dur":13961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711314745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711314753, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711316370, "dur":17357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711333731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711333751, "dur":1959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711335773, "dur":141374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711477151, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711477160, "dur":1710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711478912, "dur":60053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711538970, "dur":157, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711539135, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711540348, "dur":80221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711620574, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711620583, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711622619, "dur":26790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711649436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711649445, "dur":1030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711650516, "dur":87579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711738099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711738107, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711739192, "dur":105693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711844889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1678918711844896, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":3, "ts":1678918711846174, "dur":130151, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711126795, "dur":83, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711126878, "dur":4646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711131538, "dur":8834, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1678918711140375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711140391, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1678918711141579, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1678918711141680, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711141686, "dur":76538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1678918711218284, "dur":19306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711237595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711237664, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711239398, "dur":37766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711277168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711277173, "dur":35073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711312298, "dur":21789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711334090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711334096, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711335752, "dur":132752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711468509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711468517, "dur":4317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711472937, "dur":14352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711487293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711487301, "dur":9208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711496555, "dur":31418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711527977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711527985, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711529013, "dur":17257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711546274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711546282, "dur":2258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711548590, "dur":79543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711628138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711628148, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711629417, "dur":88184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711717604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711717611, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711720443, "dur":116062, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711836509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1678918711836517, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1678918711837887, "dur":138440, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678918711126573, "dur":243, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678918711126816, "dur":4706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678918711131538, "dur":23203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1678918711154748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678918711155080, "dur":61341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1678918711216476, "dur":401907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678918711618387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678918711618393, "dur":16785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678918711635229, "dur":156643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678918711791897, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678918711791906, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678918711793663, "dur":82089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678918711875754, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1678918711875758, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1678918711876644, "dur":99675, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711126700, "dur":122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711126836, "dur":4690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711131538, "dur":7711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1678918711139252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711139327, "dur":990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1678918711140376, "dur":75182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678918711215562, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711215571, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1678918711216886, "dur":75856, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1678918711292746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711292751, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1678918711293961, "dur":21689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711315653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711315660, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711318541, "dur":14778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711333323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711333331, "dur":9464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711342847, "dur":16620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711359491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711359499, "dur":1103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711360640, "dur":63182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711423824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711423851, "dur":1164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711425060, "dur":29094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711454158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711454165, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711455410, "dur":16230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711471645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711471659, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711472807, "dur":19404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711492214, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711492220, "dur":7008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711499268, "dur":15295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711514567, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711514575, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711515628, "dur":124478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711640109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711640119, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711642687, "dur":33963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711676654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711676662, "dur":1076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711677780, "dur":177993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711855776, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1678918711855782, "dur":1283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1678918711857142, "dur":119178, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711126537, "dur":268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711126807, "dur":4713, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711131537, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1678918711131545, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711132832, "dur":414, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1678918711133249, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1678918711133298, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711133517, "dur":6615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1678918711140134, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1678918711140409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711140963, "dur":1739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1678918711143049, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1678918711143175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711143181, "dur":73965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1678918711217199, "dur":53796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711271000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711271007, "dur":27040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711298094, "dur":17815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711315912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711315918, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711317075, "dur":60871, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711377951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711377960, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711379127, "dur":45897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711425027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711425034, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711426328, "dur":48070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711474402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711474409, "dur":1606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711476059, "dur":18666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711494729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711494736, "dur":3638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711498420, "dur":17387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711515810, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711515818, "dur":936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711516800, "dur":29615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711546418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711546425, "dur":2572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711549046, "dur":206215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711755265, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711755273, "dur":1300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711756616, "dur":217109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711973728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1678918711973734, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1678918711976266, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1678918711976268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711126877, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711126877, "dur":4656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711131539, "dur":8114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1678918711139655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711139732, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1678918711140935, "dur":74613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1678918711215552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711215561, "dur":1634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1678918711217247, "dur":14919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711232169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711232369, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711233408, "dur":34729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711268141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711268146, "dur":29874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711298070, "dur":98367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711396441, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711396449, "dur":2623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711399118, "dur":29085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711428207, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711428215, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711431996, "dur":45651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711477651, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711477657, "dur":2274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711479974, "dur":19743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711499721, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711499728, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711501102, "dur":42755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711543862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711543870, "dur":1114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711545025, "dur":63166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711608195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711608201, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711609929, "dur":25737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711635668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711635675, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711639127, "dur":81267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711720398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711720408, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711721804, "dur":126132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711847939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1678918711847945, "dur":982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1678918711848959, "dur":127332, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711126969, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711126969, "dur":4564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711131538, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1678918711131719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711137324, "dur":79787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1678918711217164, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1678918711217280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711217530, "dur":14402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1678918711231978, "dur":32502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711264484, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711264517, "dur":33715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711298281, "dur":17297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711315581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711315588, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711318569, "dur":37441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711356015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711356023, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711357064, "dur":125292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711482359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711482365, "dur":14191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711496605, "dur":110915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711607524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711607568, "dur":11666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711619280, "dur":7007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711626309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711626317, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711628964, "dur":54648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711683616, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711683624, "dur":1098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711684767, "dur":190938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711875708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1678918711875714, "dur":1774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1678918711877519, "dur":98806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711127043, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711127043, "dur":4488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711131538, "dur":8446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1678918711139987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711140003, "dur":1229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1678918711141284, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1678918711141393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711141399, "dur":173266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1678918711314716, "dur":67869, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711382590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711382597, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711383503, "dur":34889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711418396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711418404, "dur":12991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711431524, "dur":42018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711473546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711473553, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711476032, "dur":16083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711492118, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711492126, "dur":18814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711510986, "dur":42401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711553391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711553399, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711554471, "dur":84196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711638671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711638679, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711639833, "dur":75592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711715429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711715437, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711717023, "dur":125672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711842700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1678918711842710, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1678918711844675, "dur":131614, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711127060, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711127060, "dur":4489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711131549, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1678918711131751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711142543, "dur":229917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1678918711372509, "dur":49646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711422160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711422168, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711423566, "dur":42008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711465578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711465587, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711466684, "dur":132492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711599182, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711599203, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711600726, "dur":67010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711667740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711667748, "dur":6056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711673847, "dur":32821, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711706672, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711706680, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711708678, "dur":154143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711862825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1678918711862833, "dur":2428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1678918711865307, "dur":111019, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711127145, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711127146, "dur":4385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711131537, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1678918711131723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711137557, "dur":78337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1678918711215957, "dur":39367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711255327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711255561, "dur":31549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711287163, "dur":25080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711312246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711312255, "dur":1194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711313497, "dur":29568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711343068, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711343076, "dur":962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711344079, "dur":53651, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711397734, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711397741, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711398701, "dur":26541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711425245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711425251, "dur":30745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711456041, "dur":28825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711484871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711484879, "dur":7009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711491937, "dur":19234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711511191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711511199, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711512231, "dur":35329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711547564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711547571, "dur":3677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711551293, "dur":3367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711554663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711554687, "dur":951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711555682, "dur":30244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711585930, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711585938, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711587002, "dur":37266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711624272, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711624289, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711626287, "dur":239259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711865548, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1678918711865553, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Sulay/Desktop/cfdsfdsfdsf/Sulay's PTG Tool_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1678918711867697, "dur":108630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1678918711980349, "dur":1844, "ph":"X", "name": "ProfilerWriteOutput" }
+,
